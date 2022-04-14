@@ -1,0 +1,17 @@
+{
+    "name": "amazon-price-scraper",
+    "version": "1.0.0",
+    "author": "David Hülsberg <david.huelsberg@outlook.de>",
+    "description": "A simple function which loads and returns the price of an Amazon product.",
+    "repository": "https://github.com/David-H-Dev/amazon-price-scraper.git",
+    "license": "AGPL-3.0-only",
+    "main": "./src/index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node ./src/index.js"
+    },
+    "dependencies": {
+        "axios": "^0.26.1",
+        "cheerio": "^1.0.0-rc.10"
+    }
+}
